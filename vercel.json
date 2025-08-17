@@ -1,8 +1,8 @@
 {
   "builds": [
-    { "src": "mtrp-website/**", "use": "@vercel/static" }
+    { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "mtrp-website/$1" }
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
